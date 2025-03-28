@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/AndresMilla/godesde0/ejercicios"
-)
+import "github.com/AndresMilla/godesde0/files"
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -29,5 +27,11 @@ func main() {
 
 	//teclado.IngresoNumeros()
 
-	ejercicios.TablaMultiplicar()
+	//fmt.Println(ejercicios.TablaMultiplicar())
+
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 }
