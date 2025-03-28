@@ -1,6 +1,8 @@
 package main
 
-import "github.com/AndresMilla/godesde0/teclado"
+import (
+	"github.com/AndresMilla/godesde0/ejercicios"
+)
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -25,5 +27,7 @@ func main() {
 	fmt.Println(numero)
 	fmt.Println(texto)*/
 
-	teclado.IngresoNumeros()
+	//teclado.IngresoNumeros()
+
+	ejercicios.TablaMultiplicar()
 }
