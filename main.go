@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/AndresMilla/godesde0/ejercicios"
-)
+import "github.com/AndresMilla/godesde0/teclado"
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -23,9 +19,11 @@ func main() {
 		fmt.Println("Esto es darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
-	numero, texto := ejercicios.ConvNumerico("0")
+	numero, texto := ejercicios.ConvNumerico("500")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumeros()
 }
