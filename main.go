@@ -3,11 +3,29 @@ package main
 import (
 	"fmt"
 
-	"github.com/AndresMilla/godesde0/variables"
+	"github.com/AndresMilla/godesde0/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(1588)
+	/* estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
+	fmt.Println(texto)
+	if os := runtime.GOOS; os == "linux" || os == "OS X" {
+		fmt.Println("Esto no es windows ", os)
+	} else {
+		fmt.Println("Esto es:", os)
+	}
+
+	switch os := runtime.GOOS; os {
+	case "linux":
+		fmt.Println("Esto es linux")
+	case "darwin":
+		fmt.Println("Esto es darwin")
+	default:
+		fmt.Printf("%s \n", os)
+	}*/
+
+	numero, texto := ejercicios.ConvNumerico("0")
+	fmt.Println(numero)
 	fmt.Println(texto)
 }
