@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/AndresMilla/godesde0/mapas"
-)
+import "github.com/AndresMilla/godesde0/users"
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -42,5 +40,9 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+
+	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
+
 }
