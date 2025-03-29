@@ -1,6 +1,8 @@
 package main
 
-import "github.com/AndresMilla/godesde0/funciones"
+import (
+	"github.com/AndresMilla/godesde0/mapas"
+)
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -37,5 +39,8 @@ func main() {
 
 	//funciones.LlamarClosure()
 
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
