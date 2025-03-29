@@ -1,6 +1,9 @@
 package main
 
-import "github.com/AndresMilla/godesde0/users"
+import (
+	"github.com/AndresMilla/godesde0/ejer_interfaces"
+	"github.com/AndresMilla/godesde0/modelos"
+)
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -43,6 +46,9 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
 
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)
 }
