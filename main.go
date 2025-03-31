@@ -1,6 +1,8 @@
 package main
 
-import "github.com/AndresMilla/godesde0/webserver"
+import (
+	"github.com/AndresMilla/godesde0/middleware"
+)
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -58,5 +60,7 @@ func main() {
 	}()
 	fmt.Println("Estoy aqui")*/
 
-	webserver.MiWebServer()
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 }
