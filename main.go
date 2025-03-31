@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/AndresMilla/godesde0/goroutines"
-)
+import "github.com/AndresMilla/godesde0/webserver"
 
 func main() {
 	/* estado, texto := variables.ConviertoaTexto(1588)
@@ -55,10 +51,12 @@ func main() {
 
 	//defer_panic.EjemploPanic()
 
-	canal1 := make(chan bool)
+	/*canal1 := make(chan bool)
 	go goroutines.MiNombreLentooo("Sergio Andres Milla Cano", canal1)
 	defer func() {
 		<-canal1
 	}()
-	fmt.Println("Estoy aqui")
+	fmt.Println("Estoy aqui")*/
+
+	webserver.MiWebServer()
 }
